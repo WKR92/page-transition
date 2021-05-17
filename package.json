@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@dogstudio/highway": "^2.2.1",
     "gsap": "^3.6.1"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15"
   }
 }
