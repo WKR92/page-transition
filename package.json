@@ -5,7 +5,7 @@
   "homepage": "https//kristep.github.io/coctails",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel src/index.html --public-url ./"
   },
   "author": "",
   "license": "ISC",
