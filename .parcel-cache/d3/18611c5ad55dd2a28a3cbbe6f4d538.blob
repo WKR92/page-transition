@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="693fef340ecb65b159d7947955683cfd">
+    <script type="module" defer="" src="c855a5f446c8d0cf49a321a45de5ba52"></script>
+    <title>O Nas</title>
+</head>
+<body>
+
+    <main data-router-wrapper="">
+        <section data-router-view="about" class="about">
+            <div class="about-content">
+                <div class="about-presentation">
+                    <h1 class="about_title">About us</h1>
+                    <p class="about_p">we are anonymous!</p>
+                </div>
+                <img class="about_img" src="cd5f2fc3e445aec475e03771fe2b991a" alt="hot">
+            </div>
+        </section>      
+    </main>
+
+</body>
+</html>

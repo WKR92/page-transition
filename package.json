@@ -2,16 +2,16 @@
   "name": "anim",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --out-dir docs",
-    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./docs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@dogstudio/highway": "^2.2.1",
-    "gsap": "^3.6.1"
+    "gsap": "^3.6.1",
+    "parcel": "*"
   },
   "devDependencies": {
     "cssnano": "^5.0.2",
