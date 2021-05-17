@@ -1,10 +1,10 @@
 {
-  "name": "anim",
+  "name": "page-trasition",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build src/index.html --public-url='./'"
+    "build": "parcel build src/index.html --public-url ./page-trasition/"
   },
   "author": "",
   "license": "ISC",
